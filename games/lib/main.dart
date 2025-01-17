@@ -24,7 +24,11 @@ class MyApp extends StatelessWidget {
             titleTextStyle: TextStyle(color: Colors.white, fontSize: 20),
           )
       ),
-      home: LoginScreen(),
+      home: Scaffold(
+        body: Center(
+          child: Text("Games App"),
+        ),
+      ),
 
     );
   }
